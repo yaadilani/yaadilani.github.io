@@ -1,0 +1,123 @@
+﻿body 
+{
+    direction:rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:grey;
+}
+
+#container
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* MENU */
+
+nav
+{
+    padding-bottom: 50px;
+}
+
+nav ul {
+    list-style: none;
+    /*הגדרת רוחב ומרכוז התפריט לאמצע*/
+    width: 800px;
+    margin: 0 auto;
+}
+
+    nav ul li {
+        display: inline-block;
+        float: right;
+    }
+
+        nav ul li a {
+            display: block;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 160px;
+            height: 30px;
+            Padding-top: 10px;
+        }
+
+
+
+            nav ul li a:hover {
+                background-color: grey;
+                color:black;
+            }
+
+            nav .currentPage
+            {
+                background-color: white;
+                color:black;
+            }
+
+article header h1
+{
+    font-size: 28px;
+    color:blue;
+    padding-right:50px;
+    padding-bottom:25px;
+}
+
+/* BOOKWORM PAGE */
+
+#bookworm1 {
+    display: inline-block;
+    width: 450px;
+    margin-left: 30px;
+}
+
+#bookworm2 {
+    display: inline-block;
+    width: 450px;
+}
+
+.bookP
+{
+    margin:20px;
+}
+
+/* PORTRAIT PAGE */
+
+#portrait {
+    width: 500px;
+    margin: 0 auto;
+    -webkit-transition: all 750ms linear;
+    -moz-transition: all 750ms linear;
+    -ms-transition: all 750ms linear;
+    -o-transition: all 750ms linear;
+    transition: all 750ms linear;
+}
+
+    #portrait:hover {
+        width: 750px;
+        margin: 0 auto;
+        -webkit-transition: all 750ms linear;
+        -moz-transition: all 750ms linear;
+        -ms-transition: all 750ms linear;
+        -o-transition: all 750ms linear;
+        transition: all 750ms linear;
+    }
+
+/* POSTER PAGE */
+
+#orgPost
+{
+    display: inline-block;
+    width: 450px;
+    margin-left: 30px;
+}
+
+#newPost {
+    display: inline-block;
+    width: 450px;
+}
+
+#indexP
+{
+    width: 660px;
+    margin: 0 auto;
+}
